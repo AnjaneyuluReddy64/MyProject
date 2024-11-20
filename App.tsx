@@ -15,10 +15,11 @@ import FlatlistInsideScrollView from './src/ModuleTwo/FlatlistInsideScrollView';
 import ActivityIndicatorComponent from './src/ModuleTwo/ActivityIndicatorComponent';
 import SortComponent from './src/ModuleOne/SortComponent';
 import FliterComponent from './src/ModuleOne/FliterComponent';
+import ModelComponent from './src/ModuleTwo/ModelComponent';
 
 const App = () => {
   return (
-    <SafeAreaView>
+    <View style={{flex: 1}}>
       {/* ModuleOne */}
       {/* <DataTypes /> */}
       {/* <Variables /> */}
@@ -27,7 +28,7 @@ const App = () => {
       {/* <Chaining /> */}
       {/* <Conditons /> */}
       {/* <CounterApp /> */}
-      <SortComponent />
+      {/* <SortComponent /> */}
       {/* <FliterComponent /> */}
       {/* ModuleTwo */}
       {/* <Inline /> */}
@@ -38,7 +39,8 @@ const App = () => {
       {/* <FlatListComponent /> */}
       {/* <FlatlistInsideScrollView /> */}
       {/* <ActivityIndicatorComponent /> */}
-    </SafeAreaView>
+      <ModelComponent />
+    </View>
   );
 };
 
