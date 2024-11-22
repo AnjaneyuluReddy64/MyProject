@@ -16,6 +16,11 @@ import ActivityIndicatorComponent from './src/ModuleTwo/ActivityIndicatorCompone
 import SortComponent from './src/ModuleOne/SortComponent';
 import FliterComponent from './src/ModuleOne/FliterComponent';
 import ModelComponent from './src/ModuleTwo/ModelComponent';
+import ImageComponent from './src/ModuleTwo/ImageComponent';
+import BackgroundImage from './src/ModuleTwo/BackgroundImage';
+import ModalImageCoomponent from './src/ModuleTwo/ModalImageCoomponent';
+import InputComponent from './src/ModuleTwo/InputComponent';
+import AudioComponent from './src/ModuleTwo/AudioComponent';
 
 const App = () => {
   return (
@@ -39,7 +44,12 @@ const App = () => {
       {/* <FlatListComponent /> */}
       {/* <FlatlistInsideScrollView /> */}
       {/* <ActivityIndicatorComponent /> */}
-      <ModelComponent />
+      {/* <ModelComponent /> */}
+      {/* <ImageComponent /> */}
+      {/* <BackgroundImage /> */}
+      {/* <ModalImageCoomponent /> */}
+      <InputComponent />
+      {/* <AudioComponent /> */}
     </View>
   );
 };
