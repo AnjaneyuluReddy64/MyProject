@@ -21,6 +21,7 @@ import BackgroundImage from './src/ModuleTwo/BackgroundImage';
 import ModalImageCoomponent from './src/ModuleTwo/ModalImageCoomponent';
 import InputComponent from './src/ModuleTwo/InputComponent';
 import AudioComponent from './src/ModuleTwo/AudioComponent';
+import SwitchandChecbox from './src/ModuleTwo/SwitchandChecbox';
 
 const App = () => {
   return (
@@ -48,8 +49,9 @@ const App = () => {
       {/* <ImageComponent /> */}
       {/* <BackgroundImage /> */}
       {/* <ModalImageCoomponent /> */}
-      <InputComponent />
+      {/* <InputComponent /> */}
       {/* <AudioComponent /> */}
+      <SwitchandChecbox />
     </View>
   );
 };
